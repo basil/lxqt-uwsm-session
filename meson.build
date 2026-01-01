@@ -41,6 +41,10 @@ WAYLAND_SESSIONS_DIR = join_paths(
   get_option('datadir'),
   'wayland-sessions'
 )
+UWSM_DIR = join_paths(
+  get_option('datadir'),
+  'uwsm'
+)
 
 systemd_user_units = [
   'lxqt-desktop.service',
@@ -86,7 +90,7 @@ endforeach
 
 install_data(
   'uwsm/env-lxqt',
-  install_dir: get_option('datadir'),
+  install_dir: UWSM_DIR,
   install_mode: 'rw-r--r--',
 )
 
