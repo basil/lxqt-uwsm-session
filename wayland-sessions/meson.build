@@ -11,7 +11,7 @@ wayland_sessions = [
 
 foreach session : wayland_sessions
   install_data(
-    unit,
+    session,
     install_dir: WAYLAND_SESSIONS_DIR,
     install_mode: 'rw-r--r--',
   )
