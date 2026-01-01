@@ -1,6 +1,7 @@
 [Desktop Entry]
 Name=LXQt (labwc, uwsm-managed)
-Comment=Lightweight Qt Desktop (labwc, Universal Wayland Session)
+Comment=A Wayland stacking compositor
 Type=Application
-Exec=uwsm start -e -D LXQt:labwc:wlroots -- labwc.desktop
+Exec=uwsm start -- labwc
 TryExec=uwsm
+DesktopNames=LXQt;labwc;wlroots

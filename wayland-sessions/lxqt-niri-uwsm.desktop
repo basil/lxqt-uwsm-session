@@ -1,6 +1,7 @@
 [Desktop Entry]
 Name=LXQt (Niri, uwsm-managed)
-Comment=Lightweight Qt Desktop (Niri, Universal Wayland Session)
+Comment=A scrollable-tiling Wayland compositor
 Type=Application
-Exec=uwsm start -e -D LXQt:niri:wlroots -- niri
+Exec=uwsm start -- niri
 TryExec=uwsm
+DesktopNames=LXQt;niri;wlroots

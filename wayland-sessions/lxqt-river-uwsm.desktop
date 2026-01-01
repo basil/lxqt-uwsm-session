@@ -1,6 +1,7 @@
 [Desktop Entry]
 Name=LXQt (river, uwsm-managed)
-Comment=Lightweight Qt Desktop (river, Universal Wayland Session)
+Comment=A dynamic tiling Wayland compositor
 Type=Application
-Exec=uwsm start -e -D LXQt:river:wlroots -- river.desktop
+Exec=uwsm start -- river
 TryExec=uwsm
+DesktopNames=LXQt;river;wlroots

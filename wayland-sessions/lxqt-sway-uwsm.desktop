@@ -1,6 +1,7 @@
 [Desktop Entry]
 Name=LXQt (Sway, uwsm-managed)
-Comment=Lightweight Qt Desktop (Sway, Universal Wayland Session)
+Comment=An i3-compatible Wayland compositor
 Type=Application
-Exec=uwsm start -e -D LXQt:sway:wlroots -- sway.desktop
+Exec=uwsm start -- sway
 TryExec=uwsm
+DesktopNames=LXQt;sway;wlroots

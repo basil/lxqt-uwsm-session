@@ -1,6 +1,7 @@
 [Desktop Entry]
 Name=LXQt (Hyprland, uwsm-managed)
-Comment=Lightweight Qt Desktop (Hyprland, Universal Wayland Session)
+Comment=An intelligent dynamic tiling Wayland compositor
 Type=Application
-Exec=uwsm start -e -D LXQt:Hyprland:wlroots -- hyprland.desktop
+Exec=uwsm start -- start-hyprland
 TryExec=uwsm
+DesktopNames=LXQt;Hyprland;wlroots
