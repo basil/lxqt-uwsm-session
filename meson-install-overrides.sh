@@ -34,7 +34,7 @@ install -Dm644 \
 	"$dest/"'app-lxqt\x2drunner@autostart.service.d/override.conf'
 
 install -Dm644 \
-	"$src/"'app-lxqt\x2dxscreensaver-autostart@autostart.service.d/override.conf' \
-	"$dest/"'app-lxqt\x2dxscreensaver-autostart@autostart.service.d/override.conf'
+	"$src/"'app-lxqt\x2dxscreensaver\x2dautostart@autostart.service.d/override.conf' \
+	"$dest/"'app-lxqt\x2dxscreensaver\x2dautostart@autostart.service.d/override.conf'
 
 exit 0
