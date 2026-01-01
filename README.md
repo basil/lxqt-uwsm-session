@@ -33,17 +33,4 @@ meson install -C build
 
 ### Usage
 
-Ensure you have logged into LXQt at least once. Then log into one of the
-new **LXQt (uwsm-managed)** sessions. The first time you log in, enable
-the following services:
-
-```sh
-systemctl --user enable --now lxqt-desktop.service
-systemctl --user enable --now lxqt-globalkeyshortcuts.service
-systemctl --user enable --now lxqt-notifications.service
-systemctl --user enable --now lxqt-panel.service
-systemctl --user enable --now lxqt-policykit-agent.service
-systemctl --user enable --now lxqt-powermanagement.service
-systemctl --user enable --now lxqt-runner.service
-systemctl --user enable --now lxqt-xscreensaver-autostart.service
-```
+Log into one of the new **LXQt (uwsm-managed)** sessions.
