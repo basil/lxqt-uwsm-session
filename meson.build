@@ -65,11 +65,18 @@ endforeach
 # literal '\x2d'. Meson cannot handle backslashes in path components, so we
 # install those via a separate install script instead of install_data().
 
-install_data(
-  'wayland-sessions/lxqt-labwc-uwsm.desktop',
-  install_dir: WAYLAND_SESSIONS_DIR,
-  install_mode: 'rw-r--r--',
-)
+compositor_units = [
+  'lxqt-labwc-uwsm.desktop',
+  'lxqt-wayfire-uwsm.desktop',
+]
+
+foreach unit : compositor_units
+  install_data(
+    join_paths('wayland-sessions', unit),
+    install_dir: WAYLAND_SESSIONS_DIR,
+    install_mode: 'rw-r--r--',
+  )
+endforeach
 
 install_data(
   'uwsm/env-lxqt',

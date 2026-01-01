@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=LXQt (Wayfire, uwsm-managed)
+Comment=Lightweight Qt Desktop (Wayfire, Universal Wayland Session)
+Type=Application
+Exec=uwsm start -e -D LXQt:wayfire:wlroots -- wayfire.desktop
+TryExec=uwsm

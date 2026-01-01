@@ -11,6 +11,7 @@ Manager](https://github.com/Vladimir-csp/uwsm) (UWSM).
 The following compositors are currently supported:
 
 - [labwc](https://github.com/labwc/labwc)
+- [Wayfire](https://wayfire.org)
 
 This project aims to eventually support all the compositors and
 configurations currently provided in
