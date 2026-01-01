@@ -2,5 +2,5 @@
 Name=LXQt (Miriway, uwsm-managed)
 Comment=Lightweight Qt Desktop (Miriway, Universal Wayland Session)
 Type=Application
-Exec=uwsm start -e -D LXQt:miriway:mir -- miriway.desktop
+Exec=uwsm start -e -D LXQt:miriway:mir -- miriway
 TryExec=uwsm
