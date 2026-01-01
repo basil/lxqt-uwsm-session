@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=LXQt (Niri, uwsm-managed)
+Comment=Lightweight Qt Desktop (Niri, Universal Wayland Session)
+Type=Application
+Exec=uwsm start -e -D LXQt:niri:wlroots -- niri.desktop
+TryExec=uwsm

@@ -66,7 +66,12 @@ endforeach
 # install those via a separate install script instead of install_data().
 
 compositor_units = [
+  'lxqt-hyprland-uwsm.desktop',
+  'lxqt-kwin-wayland-uwsm.desktop',
   'lxqt-labwc-uwsm.desktop',
+  'lxqt-niri-uwsm.desktop',
+  'lxqt-river-uwsm.desktop',
+  'lxqt-sway-uwsm.desktop',
   'lxqt-wayfire-uwsm.desktop',
 ]
 

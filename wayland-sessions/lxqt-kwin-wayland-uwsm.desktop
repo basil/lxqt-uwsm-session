@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=LXQt (KWin/Wayland, uwsm-managed)
+Comment=Lightweight Qt Desktop (KWin/Wayldn, Universal Wayland Session)
+Type=Application
+Exec=uwsm start -e -D LXQt:kwin_wayland -- kwin_wayland_wrapper --xwayland
+TryExec=uwsm
