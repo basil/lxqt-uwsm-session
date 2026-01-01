@@ -4,11 +4,10 @@ Documentation=https://github.com/lxqt/lxqt-panel
 StartLimitBurst=3
 StartLimitIntervalSec=60s
 After=graphical-session.target
+ConditionEnvironment=LXQT_SESSION_MANAGER=uwsm
 
 [Service]
 Type=exec
-# Repurpose XDG Autostart filtering
-ExecCondition=/usr/lib/systemd/systemd-xdg-autostart-condition "LXQt" ""
 ExecStart=/usr/bin/lxqt-panel
 Restart=on-failure
 Slice=session.slice

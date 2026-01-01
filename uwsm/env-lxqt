@@ -1,3 +1,6 @@
+# Advertise the use of UWSM
+export LXQT_SESSION_MANAGER="uwsm"
+
 # Qt4 platform plugin
 export QT_PLATFORM_PLUGIN="lxqt"
 

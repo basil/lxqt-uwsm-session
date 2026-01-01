@@ -2,11 +2,10 @@
 Description=LXQt Global Keyboard Shortcuts
 Documentation=https://github.com/lxqt/lxqt-globalkeys
 After=graphical-session.target
+ConditionEnvironment=LXQT_SESSION_MANAGER=uwsm
 
 [Service]
 Type=exec
-# Repurpose XDG Autostart filtering
-ExecCondition=/usr/lib/systemd/systemd-xdg-autostart-condition "LXQt" ""
 ExecStart=/usr/bin/lxqt-globalkeysd
 Restart=on-failure
 Slice=session.slice

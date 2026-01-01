@@ -2,11 +2,10 @@
 Description=LXQt Power Management
 Documentation=https://github.com/lxqt/lxqt-powermanagement
 After=graphical-session.target
+ConditionEnvironment=LXQT_SESSION_MANAGER=uwsm
 
 [Service]
 Type=exec
-# Repurpose XDG Autostart filtering
-ExecCondition=/usr/lib/systemd/systemd-xdg-autostart-condition "LXQt" ""
 ExecStart=/usr/bin/lxqt-powermanagement
 Restart=on-failure
 Slice=background-graphical.slice
