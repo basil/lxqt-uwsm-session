@@ -3,3 +3,8 @@ option(
   type: 'string',
   description: 'documentation directory',
 )
+option(
+  'licensedir',
+  type: 'string',
+  description: 'license directory',
+)
