@@ -30,7 +30,7 @@ Ensure you have logged into LXQt at least once. Then log into the new **LXQt
 (labwc, uwsm-managed)** session:
 
 ```sh
-uwsm start -e -D LXQt:labwc -- labwc.desktop
+uwsm start -e -D LXQt:labwc:wlroots -- labwc.desktop
 ```
 
 The first time you log in, enable the following services:
