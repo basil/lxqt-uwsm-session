@@ -11,6 +11,7 @@ Manager](https://github.com/Vladimir-csp/uwsm) (UWSM).
 The following compositors are currently supported:
 
 - [Labwc](https://github.com/labwc/labwc) (version 0.7.2 and higher)
+- [Miriway](https://github.com/Miriway/Miriway)
 - [Wayfire](https://wayfire.org)
 - [KWin/Wayland](https://community.kde.org/KWin/Wayland)
 - [Hyprland](https://hypr.land)

@@ -69,6 +69,7 @@ compositor_units = [
   'lxqt-hyprland-uwsm.desktop',
   'lxqt-kwin-wayland-uwsm.desktop',
   'lxqt-labwc-uwsm.desktop',
+  'lxqt-miriway-uwsm.desktop',
   'lxqt-niri-uwsm.desktop',
   'lxqt-river-uwsm.desktop',
   'lxqt-sway-uwsm.desktop',
