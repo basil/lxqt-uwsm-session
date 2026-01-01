@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=LXQt (labwc, uwsm-managed)
+Comment=Lightweight Qt Desktop (labwc, Universal Wayland Session)
+Type=Application
+Exec=uwsm start -e -D LXQt:labwc -- labwc.desktop
+TryExec=uwsm

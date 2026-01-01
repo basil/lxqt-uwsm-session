@@ -1,0 +1,13 @@
+# Qt4 platform plugin
+export QT_PLATFORM_PLUGIN="lxqt"
+
+# Qt5/6
+export QT_QPA_PLATFORMTHEME="lxqt"
+export QT_EXCLUDE_GENERIC_BEARER=1
+export QT_AUTO_SCREEN_SCALE_FACTOR=0
+
+# Qt6
+export QT_ACCESSIBILITY=1
+
+# Use lxqt-applications.menu for main app menu
+export XDG_MENU_PREFIX="lxqt-"

@@ -1,0 +1,16 @@
+[Unit]
+Description=LXQt PolicyKit Handler
+Documentation=https://github.com/lxqt/lxqt-policykit
+After=graphical-session.target
+
+[Service]
+Type=exec
+# Repurpose XDG Autostart filtering
+ExecCondition=/usr/lib/systemd/systemd-xdg-autostart-condition "LXQt" ""
+ExecStart=/usr/libexec/lxqt-policykit-agent
+Restart=on-failure
+Slice=background-graphical.slice
+TimeoutStopSec=5s
+
+[Install]
+WantedBy=graphical-session.target

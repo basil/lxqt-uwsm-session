@@ -1,0 +1,16 @@
+[Unit]
+Description=XScreenSaver
+Documentation=https://github.com/lxqt/lxqt-session
+After=graphical-session.target
+
+[Service]
+Type=exec
+# Repurpose XDG Autostart filtering
+ExecCondition=/usr/lib/systemd/systemd-xdg-autostart-condition "LXQt" ""
+ExecStart=/usr/bin/xscreensaver -no-splash
+Restart=on-failure
+Slice=session.slice
+TimeoutStopSec=5s
+
+[Install]
+WantedBy=graphical-session.target
