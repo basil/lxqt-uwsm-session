@@ -2,6 +2,5 @@
 Name=LXQt (river, uwsm-managed)
 Comment=A dynamic tiling Wayland compositor
 Type=Application
-Exec=uwsm start -- river
+Exec=uwsm start -D LXQt:river:wlroots -- river
 TryExec=uwsm
-DesktopNames=LXQt;river;wlroots

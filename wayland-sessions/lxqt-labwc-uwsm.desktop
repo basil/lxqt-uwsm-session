@@ -2,6 +2,5 @@
 Name=LXQt (labwc, uwsm-managed)
 Comment=A Wayland stacking compositor
 Type=Application
-Exec=uwsm start -- labwc
+Exec=uwsm start -eD LXQt:labwc:wlroots -- labwc
 TryExec=uwsm
-DesktopNames=LXQt;labwc;wlroots

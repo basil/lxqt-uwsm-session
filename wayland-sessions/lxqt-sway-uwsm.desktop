@@ -2,6 +2,5 @@
 Name=LXQt (Sway, uwsm-managed)
 Comment=An i3-compatible Wayland compositor
 Type=Application
-Exec=uwsm start -- sway
+Exec=uwsm start -eD LXQt:sway:wlroots -- sway
 TryExec=uwsm
-DesktopNames=LXQt;sway;wlroots

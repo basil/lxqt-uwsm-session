@@ -2,6 +2,5 @@
 Name=LXQt (KWin/Wayland, uwsm-managed)
 Comment=Wayland compositor for KDE
 Type=Application
-Exec=uwsm start -- kwin_wayland_wrapper --xwayland
+Exec=uwsm start -eD LXQt:kwin_wayland -- kwin_wayland_wrapper --xwayland
 TryExec=uwsm
-DesktopNames=LXQt;kwin_wayland

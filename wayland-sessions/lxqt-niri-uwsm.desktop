@@ -2,6 +2,5 @@
 Name=LXQt (Niri, uwsm-managed)
 Comment=A scrollable-tiling Wayland compositor
 Type=Application
-Exec=uwsm start -- niri
+Exec=uwsm start -eD LXQt:niri:wlroots -- niri
 TryExec=uwsm
-DesktopNames=LXQt;niri;wlroots

@@ -2,6 +2,5 @@
 Name=LXQt (Miriway, uwsm-managed)
 Comment=Mir/Wayland desktop environment
 Type=Application
-Exec=uwsm start -- miriway
+Exec=uwsm start -eD LXQt:miriway:mir -- miriway
 TryExec=uwsm
-DesktopNames=LXQt;miriway;mir

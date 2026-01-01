@@ -2,6 +2,5 @@
 Name=LXQt (Wayfire, uwsm-managed)
 Comment=A modular and extensible Wayland compositor
 Type=Application
-Exec=uwsm start -- wayfire
+Exec=uwsm start -eD LXQt:Wayfire:wlroots -- wayfire
 TryExec=uwsm
-DesktopNames=LXQt;Wayfire;wlroots

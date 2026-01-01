@@ -2,6 +2,5 @@
 Name=LXQt (Hyprland, uwsm-managed)
 Comment=An intelligent dynamic tiling Wayland compositor
 Type=Application
-Exec=uwsm start -- start-hyprland
+Exec=uwsm start -eD LXQt:Hyprland:wlroots -- start-hyprland
 TryExec=uwsm
-DesktopNames=LXQt;Hyprland;wlroots
