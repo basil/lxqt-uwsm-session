@@ -79,7 +79,7 @@ the correct systemd slice. As a short-term workaround, launch applications via:
 
 - A compositor keybinding that runs `uwsm app`, or
 - An [alternative application runner that supports launch
-  prefixes](https://github.com/Vladimir-csp/uwsm?tab=readme-ov-file#2-service-startup-notification-and-vars-set-by-compositor).
+  prefixes](https://github.com/Vladimir-csp/uwsm?tab=readme-ov-file#3-applications-and-slices).
 
 In the long term, LXQt itself should be enhanced to support launch prefixes as a
 first-class configuration option.
