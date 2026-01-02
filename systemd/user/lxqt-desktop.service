@@ -2,6 +2,7 @@
 Description=LXQt Desktop
 Documentation=https://github.com/lxqt/pcmanfm-qt
 After=graphical-session.target
+PartOf=graphical-session.target
 ConditionEnvironment=LXQT_SESSION_MANAGER=uwsm
 
 [Service]
@@ -10,6 +11,7 @@ ExecStart=/usr/bin/pcmanfm-qt --desktop --profile=lxqt
 Restart=on-failure
 Slice=session.slice
 TimeoutStopSec=5s
+EnvironmentFile=-%t/uwsm/env_session.conf
 
 [Install]
 WantedBy=graphical-session.target

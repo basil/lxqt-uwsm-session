@@ -2,6 +2,7 @@
 Description=LXQt Runner
 Documentation=https://github.com/lxqt/lxqt-runner
 After=graphical-session.target
+PartOf=graphical-session.target
 ConditionEnvironment=LXQT_SESSION_MANAGER=uwsm
 
 [Service]
@@ -10,6 +11,7 @@ ExecStart=/usr/bin/lxqt-runner
 Restart=on-failure
 Slice=background-graphical.slice
 TimeoutStopSec=5s
+EnvironmentFile=-%t/uwsm/env_session.conf
 
 [Install]
 WantedBy=graphical-session.target
