@@ -22,8 +22,8 @@ install -Dm644 \
 	"$dest/"'app-lxqt\x2dpanel@autostart.service.d/override.conf'
 
 install -Dm644 \
-	"$src/"'app-lxqt\x2dpolicykit-agent@autostart.service.d/override.conf' \
-	"$dest/"'app-lxqt\x2dpolicykit-agent@autostart.service.d/override.conf'
+	"$src/"'app-lxqt\x2dpolicykit\x2dagent@autostart.service.d/override.conf' \
+	"$dest/"'app-lxqt\x2dpolicykit\x2dagent@autostart.service.d/override.conf'
 
 install -Dm644 \
 	"$src/"'app-lxqt\x2dpowermanagement@autostart.service.d/override.conf' \
